@@ -1,0 +1,171 @@
+@import url(styles/tablet.css);
+
+
+    .header{
+        width: 100%;
+        height: 68px;
+        background-color: white;
+        display: flex;
+        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+    }
+
+
+            .header_checkbox{
+                margin: 17px 53px 17px 54px;
+                width: 35px;
+                height: 35px;
+                opacity: 0;
+                z-index: 1000;
+                
+            }
+        
+        
+            .header_navigation{
+                position: absolute;
+                margin: 68px 0px 0px 0px;
+                background-color: white;
+                width: 181px;
+                height: 305px;
+                display: none;
+            }
+        
+
+                    .header_checkbox_text{
+                        display: none;      
+                    }
+
+
+                    .header_checkbox_lines{
+                    width: 35px;
+                    height: 30px;
+                    position: absolute;
+                    margin: 19px 53px 0px 54px;
+                    z-index: 999;
+                    }
+        
+
+                    .header_navigation_lines{
+                        width: 181px;
+                        height: 1px;
+                        background-color: black;
+                    }
+
+        
+                            .header_checkbox_span_1{
+                                position: absolute;
+                                width: 35px;
+                                height: 5px;
+                                background-color: black;
+                                z-index: 999;
+                                border-radius: 5px;
+                            }
+        
+
+                            .header_checkbox_span_2{
+                                position: absolute;
+                                width: 35px;
+                                height: 5px;
+                                background-color: black;
+                                margin-top: 10px;
+                                z-index: 999;
+                                border-radius: 5px;
+                            }
+        
+
+                            .header_checkbox_span_3{
+                                position: absolute;
+                                width: 35px;
+                                height: 5px;
+                                background-color: black;
+                                margin-top: 20px;
+                                z-index: 999;
+                                border-radius: 5px;
+                            }
+                            
+                    
+                    .header_navigation_options{
+                        width: 181px;
+                        height: 60px;
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
+                        text-decoration: none;
+                        text-decoration-line: none;
+                    }
+                            
+                    
+                            .header_navigation_options_images{
+                                width: 24px;
+                                height: 24px;
+                                padding-left: 15px;
+                            }
+        
+
+                            .header_navigation_options_texts{
+                                padding-left: 13px;
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                color: black;
+                            }
+                            
+                            
+                            .header_navigation_options_links{
+                                text-decoration: none;
+                            }
+                            
+                            
+                            .header_checkbox:checked ~.header_navigation{
+                                display:block;
+                            }
+                            
+                            
+                            .header_checkbox:checked ~.header_checkbox_lines{
+                                transform: rotate(90deg);
+                                transition: 0.1s ease-in-out;
+                            }
+
+
+
+                    .header_link_1{
+                        padding: 7px 43px 7px 44px;
+                    }
+
+
+                            .header_link_1_text{
+                                display: none;
+                            }
+
+
+                            .header_link_1_image{
+                                width: 54px;
+                                height: 54px;
+                            }
+
+
+                    .header_link_2{
+                        padding: 16px 53px 17px 53px;
+                    }
+
+
+                            .header_link_2_text{
+                                display: none;
+                            }
+
+
+                            .header_link_2_image{
+                                width: 36px;
+                                height: 35px;
+                            }
+
+
+                    .header_link_text{
+                        display: none;
+                    }
+    
+
+            .header_gridline{
+                background-color: #898989;
+                width: 1px;
+                height: 38px;
+                margin-top: 17px;
+            }

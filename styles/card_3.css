@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+
+
+
+                    .home_card_3{
+                        background-color: var(--card_primarycolor);
+                        width: 384px;
+                        height: 184px;
+                        margin: 23px 22px 0px;
+                        display: flex;
+                        box-shadow: 0px 5px 10px rgb(83, 83, 83);
+                    }
+
+
+                            .home_card_3_texts{
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            
+                            .home_card_3_texts_text_1{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                width: 176px;
+                                height: 50px;
+                                margin: 16px 0px 0px 16px;
+                                font-weight: bold;
+                            }
+                            
+                            
+                            .home_card_3_texts_text_2{
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                font-weight: var(--primaryfontweight);
+                                width: 176px;
+                                height: 57px;
+                                margin: 8px 0px 0px 16px;
+                            }
+                            
+                            
+                            .home_card_3_texts_socials{
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 176px;
+                                height: 35px;
+                                margin: 0px 0px 0px 12px;
+                            }
+                            
+                            
+                            .home_card_3_text_socials_image_1{
+                                width: 30px;
+                                height: 30px;
+                            }
+                            
+                            
+                            .home_card_3_text_socials_image_2{
+                                width: 33px;
+                                height: 33px;
+                            }
+                            
+                            
+                            .home_card_3_text_socials_image_3{
+                                width: 35px;
+                                height: 35px;
+                            }
+                            
+                            
+                            .home_card_3_ad{
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .home_card_3_ad_image{
+                                width: 152px;
+                                height: 100px;
+                                margin: 8px 0px 0px 22px;
+                            }
+                            
+                            .home_card_3_ad_button{
+                                width: 152px;
+                                height: 56px;
+                                margin: 8px 0px 0px 22px;
+                                background-color: #7BD651;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                            }
+                            
+                            .home_card_3_ad_button:active{
+                                transform: translateY(5px);
+                                transition-duration: 0.1s;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066; 
+                            }
+                            
+                            .home_card_3_ad_button_text{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                font-weight: var(--primaryfontweight);
+                                color: var(--font_primarycolor);
+                            }

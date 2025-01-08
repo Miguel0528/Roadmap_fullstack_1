@@ -1,0 +1,377 @@
+@import url(styles/header.css);
+@import url(styles/banner_1.css);
+@import url(styles/banner_2.css);
+@import url(styles/banner_3.css);
+@import url(styles/card_1.css);
+@import url(styles/card_2.css);
+@import url(styles/card_3.css);
+@import url(styles/swiper_img_1.css);
+@import url(styles/swiper_img_2.css);
+@import url(styles/swiper_img_3.css);
+@import url(styles/footer.css);
+@import url(styles/tablet.css);
+@import url(styles/pc.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+:root{
+    --primarycolor: #3590AB;
+    --secondarycolor: #b7b7b8;
+    --bannercolor: #617378;
+    --font_primarycolor: white;
+    --font_secondarycolor: black;
+    --card_primarycolor: white;
+    --primaryfont: "Quicksand", serif;
+    --primaryfontweight: 400;
+    --letterspacing: 4px;
+    --card_fontsize: 18px;
+}
+
+
+            .body_home{
+                background-image: linear-gradient(220deg, var(--primarycolor), var(--secondarycolor));
+                width: 100%;
+                height: 1876px;
+            }
+            
+            .body_contact{
+                background-image: linear-gradient(220deg, var(--primarycolor), var(--secondarycolor));
+                width: 100%;
+                height: 1347px;
+            }
+            
+            
+            .body_games{
+                background-image: linear-gradient(220deg, var(--primarycolor), var(--secondarycolor));
+                width: 100%;
+                height: 1250px;
+            }
+            
+            
+            .body_dev{
+                background-image: linear-gradient(220deg, var(--primarycolor), var(--secondarycolor));
+                width: 100%;
+                height: 100%;
+            }
+            
+            
+            .body_animes{
+                background-image: linear-gradient(220deg, var(--primarycolor), var(--secondarycolor));
+                width: 100%;
+                height: 1500px;
+            }
+
+
+                    .home_text_1{
+                        width: 159px;
+                        height: 23px;
+                        margin: 3% 0px 0px 40%;
+                        font-size: 18px;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                    }
+                
+                
+                    .home_text_2{
+                        letter-spacing: var(--letterspacing);
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        width: 212px;
+                        height: 20px;
+                        margin: 3% 0px 0px 36%;
+                    }
+                
+                    .home_text_3{
+                        letter-spacing: var(--letterspacing);
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 100%;
+                        height: 20px;
+                        margin: 3% 0px 0px 15%;
+                    }
+                
+                    .home_text_4{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 378px;
+                        height: 20px;
+                        margin: 21px 0px 0px 26px;
+                    }
+                
+                
+                    .home_text_5{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 230px;
+                        height: 20px;
+                        margin: 21px 0px 0px 112px;
+                    }
+
+
+                    .contact_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 205px;
+                        height: 20px;
+                        margin: 30px 0px 0px 27.5%;
+                    }
+
+                    .contact_text_2{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        margin: 12px 0px 0px 35%;
+                    }
+
+
+                    .games_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 259px;
+                        height: 23px;
+                        margin: 31px 0px 0px 100px;
+                    }
+                
+                
+                    .games_text_2{
+                        margin: 22px 0px 0px 32px;
+                        font-weight: bold;
+                        font-size: 18px;
+                        font-family: var(--primaryfont);
+                    }
+                
+                
+                    .games_text_3{
+                        margin: 22px 0px 0px 32px;
+                        font-weight: bold;
+                        font-size: 18px;
+                        font-family: var(--primaryfont);
+                    }
+                
+                
+                    .games_text_4{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        margin: 15px 0px 0px 153px;
+                    }
+                
+                
+                    .dev_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 305px;
+                        height: 23px;
+                        margin: 31px 0px 0px 20%;
+                    }
+                
+                
+                    .dev_text_2{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        margin: 15px 0px 0px 35%;
+                    }
+
+
+
+    .swiper{
+        margin-top: 12px;
+        margin-left: 1px;
+    }
+
+
+    .swiper-wrapper{
+        margin-left: 1%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+                    .swiper-slide-image{
+                        width: 134px;
+                        height: 184px;
+                    }
+
+            .swiper-pagination{
+                position: initial !important;
+                padding-bottom: 10px;
+            }
+            
+            .contact_formulary{
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+
+                    .contact_formulary_1{
+                        width: 90%;
+                        height: 42px;
+                        margin-top: 7px;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        background-size: 24px;
+                        background-position: 10px;
+                        background-repeat: no-repeat;
+                        padding-left: 10px;
+                        font-size: 15px;
+                        border-color: #89898969;
+                    }
+                    
+                    .contact_formulary_1:placeholder-shown{
+                        background-image: url(assets/contact/image_nickname.png);
+                    }
+                    
+                    .contact_formulary_2{
+                        width: 90%;
+                        height: 42px;
+                        margin-top: 7px;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        background-size: 24px;
+                        background-position: 10px;
+                        background-repeat: no-repeat;
+                        padding-left: 5px;
+                        font-size: 15px;
+                        border-color: #89898969;
+                    }
+                    
+                    
+                            .contact_formulary_2:placeholder-shown{
+                                background-image: url(assets/contact/image_mail.png);
+                            }
+                            
+                    .contact_formulary_3{
+                        width: 90%;
+                        height: 210px;
+                        margin-top: 7px;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        padding-left: 10px;
+                        font-size: 15px;
+                        border-color: #89898969;
+                    }
+
+                            .contact_formulary_label_1{
+                                width: 368px;
+                                margin-top: 28px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                            }
+                            
+                            .contact_formulary_label_2{
+                                width: 368px;
+                                margin-top: 13px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                            }
+                            
+                            .contact_formulary_label_3{
+                                width: 368px;
+                                margin-top: 13px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                            }
+
+                    .contact_formulary_button{
+                        width: 152px;
+                        height: 56px;
+                        margin: 27px 0px 0px;
+                        background-color: #7BD651;
+                        border-bottom-width: 8px;
+                        border-bottom-color: #84c066;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                    
+                    .contact_formulary_button:active{
+                        transform: translateY(5px);
+                        transition-duration: 0.1s;
+                        border-bottom-width: 8px;
+                        border-bottom-color: #84c066; 
+                    }
+
+                            .contact_formulary_button_text{
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                font-weight: var(--primaryfontweight);
+                                color: var(--font_primarycolor);
+                            }
+
+
+
+
+                    .animes_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 302px;
+                        height: 23px;
+                        margin: 31px 0px 0px 80px;
+                    }
+                    
+                    
+                    .animes_text_2{
+                        margin: 22px 0px 0px 32px;
+                        font-weight: bold;
+                        font-size: 18px;
+                        font-family: var(--primaryfont);
+                    }
+                    
+                    
+                    .animes_text_3{
+                        margin: 22px 0px 0px 32px;
+                        font-weight: bold;
+                        font-size: 18px;
+                        font-family: var(--primaryfont);
+                    }
+                    
+                    
+                    .animes_text_4{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        margin: 20px 0px 0px 153px;
+                    }

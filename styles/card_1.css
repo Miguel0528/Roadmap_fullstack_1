@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+
+                    .home_card_1{
+                        background-color: var(--card_primarycolor);
+                        width: 384px;
+                        height: 184px;
+                        margin: 23px 22px 0px;
+                        display: flex;
+                        box-shadow: 0px 5px 10px rgb(83, 83, 83);
+                    }
+                            
+                            .home_card_1_texts{
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            .home_card_1_texts_text_1{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                width: 176px;
+                                height: 50px;
+                                margin: 16px 0px 0px 16px;
+                                font-weight: bold;
+                            }
+                            
+                            .home_card_1_texts_text_2{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                font-weight: var(--primaryfontweight);
+                                width: 176px;
+                                height: 57px;
+                                margin: 4px 0px 0px 16px;
+                            }
+                            
+                            .home_card_1_texts_socials{
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 176px;
+                                height: 35px;
+                                margin: 4px 0px 0px 12px;
+                            }
+                            
+                            .home_card_1_text_socials_image_1{
+                                width: 30px;
+                                height: 30px;
+                            }
+                            
+                            .home_card_1_text_socials_image_2{
+                                width: 31px;
+                                height: 30px;
+                            }
+                            
+                            .home_card_1_text_socials_image_3{
+                                width: 23px;
+                                height: 26px;
+                            }
+                            
+                            .home_card_1_ad{
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .home_card_1_ad_image{
+                                width: 152px;
+                                height: 100px;
+                                margin: 8px 0px 0px 22px;
+                            }
+                            
+                            .home_card_1_ad_button{
+                                width: 152px;
+                                height: 56px;
+                                margin: 8px 0px 0px 22px;
+                                background-color: #7BD651;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                            }
+                            
+                            .home_card_1_ad_button:active{
+                                transform: translateY(5px);
+                                transition-duration: 0.1s;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066; 
+                            }
+                            
+                            .home_card_1_ad_button_text{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                font-weight: var(--primaryfontweight);
+                                color: var(--font_primarycolor);
+                            }
+
+
+
+
+                    .contact_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 428px;
+                        height: 1012px;
+                    }
+
+                            .contact_card_1_text_1{
+                                font-family: var(--primaryfont);
+                                width: 368px;
+                                height: 25px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin: 10px 0px 0px 32px;
+                            }
+                            
+                            .contact_card__1_text_2{
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                width: 368px;
+                                height: 108px;
+                                font-size: 16px;
+                                margin: 2px 0px 0px 31px;
+                            }
+                            
+                            .contact_card_1_image_1{
+                                width: 300px;
+                                height: 250px;
+                                margin: 16px 0px 0px 70px;
+                            }
+
+
+                    .games_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 428px;
+                        height: 1680px;
+                        font-family: var(--primaryfont);
+                    }
+
+                            .games_card_1_image_1{
+                                width: 300px;
+                                height: 250px;
+                                margin: 19px 0px 0px 70px;
+                            }
+                            
+                            
+                            .games_card_1_text_1{
+                                width: 368px;
+                                height: 27px;
+                                margin: 18px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                                font-size: var(--card_fontsize);
+                            }
+                            
+                            .games_card_1_text_2{
+                                width: 368px;
+                                height: 125px;
+                                margin: 9px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                            }
+                            
+                            
+                            .games_card_1_game_1{
+                                width: 368px;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 33px 0px 0px 32px;
+                            }
+                            
+                            .games_card_1_image_2{
+                                width: 134px;
+                                height: 184px;
+                            }
+                            
+                            
+                            .games_card_1_game_1_texts{
+                                width: 224px;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .games_card_1_text_weight{
+                                font-weight: bold;
+                            }
+                            
+                            .games_card_1_text_3{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 8px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_4{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_5{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_6{
+                                width: 224px;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .games_card_1_game_2{
+                                width: 368px;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 33px 0px 0px 32px;
+                            }
+
+                            .games_card_1_image_3{
+                                width: 134px;
+                                height: 184px;
+                            }
+                            
+                            
+                            .games_card_1_game_2_texts{
+                                width: 224px;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_weight{
+                                font-weight: bold;
+                            }
+                            
+                            .games_card_1_text_7{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 8px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_8{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_9{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .games_card_1_text_10{
+                                width: 224px;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .games_card_1_video{
+                                width: 410px;
+                                height: 237px;
+                                margin: 3px 0px 0px 5px;
+                            }
+
+
+                    .dev_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 428px;
+                        height: 1310px;
+                        font-family: var(--primaryfont);
+                    }
+
+
+                            .dev_card_1_image_1{
+                                width: 300px;
+                                height: 250px;
+                                margin: 19px 0px 0px 70px;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_image_2{
+                                width: 120px;
+                                height: 120px;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_text_1{
+                                width: 368px;
+                                height: 27px;
+                                margin: 18px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                                font-size: 18px;
+                            
+                            }
+                            
+                            .dev_card_1_text_2{
+                                width: 368px;
+                                height: 100px;
+                                margin: 9px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                            }
+                            
+                            .dev_card_1_text_3{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_4{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_5{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_6{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_7{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_8{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_9{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_10{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_11{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_12{
+                                width: 227px;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .dev_card_1_text_weight{
+                                font-weight: bold;
+                            }
+                            
+                            
+                            .dev_card_1_lang{
+                                width: 400px;
+                                height: 150px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 5px 0px 0px 19px;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_lang_reverse{
+                                width: 400px;
+                                height: 150px;
+                                display: flex;
+                                flex-direction: row-reverse;
+                                margin: 5px 0px 0px 19px;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_lang_texts{
+                                width: 240px;
+                                height: 184px;
+                                margin-left: 13px;
+                                margin-top: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                font-family: var(--primaryfont);
+                            }
+
+
+
+
+                    .animes_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 428px;
+                        height: 1680px;
+                        font-family: var(--primaryfont);
+                    }
+
+                            .animes_card_1_image_1{
+                                width: 300px;
+                                height: 250px;
+                                margin: 19px 0px 0px 70px;
+                            }
+                            
+                            
+                            .animes_card_1_text_1{
+                                width: 368px;
+                                height: 27px;
+                                margin: 18px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                                font-size: var(--card_fontsize);
+                            }
+                            
+                            .animes_card_1_text_2{
+                                width: 368px;
+                                height: 125px;
+                                margin: 9px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                            }
+                            
+                            
+                            .animes_card_1_game_1{
+                                width: 368px;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 33px 0px 0px 32px;
+                            }
+                            
+                            .animes_card_1_image_2{
+                                width: 134px;
+                                height: 184px;
+                            }
+                            
+                            
+                            .animes_card_1_game_1_texts{
+                                width: 224px;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .animes_card_1_text_weight{
+                                font-weight: bold;
+                            }
+                            
+                            .animes_card_1_text_3{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 8px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_4{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_5{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_6{
+                                width: 224px;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .animes_card_1_game_2{
+                                width: 368px;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 33px 0px 0px 32px;
+                            }
+                            
+                            .animes_card_1_image_3{
+                                width: 134px;
+                                height: 184px;
+                            }
+                            
+                            
+                            .animes_card_1_game_2_texts{
+                                width: 224px;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_weight{
+                                font-weight: bold;
+                            }
+                            
+                            .animes_card_1_text_7{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 8px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_8{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_9{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .animes_card_1_text_10{
+                                width: 224px;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .animes_card_1_video{
+                                width: 410px;
+                                height: 237px;
+                                margin: 3px 0px 0px 5px;
+                            }

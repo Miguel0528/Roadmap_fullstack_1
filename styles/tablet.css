@@ -1,0 +1,1137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+@media (min-width:768px) {
+
+
+    .header{
+        width: 100%;
+        height: 68px;
+        background-color: white;
+        display: flex;
+        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+    }
+    
+    
+            .header_checkbox{
+                margin: 17px 100px 17px 130px;
+                width: 35px;
+                height: 35px;
+                opacity: 0;
+                z-index: 1000;
+            }
+        
+        
+            .header_navigation{
+                position: absolute;
+                margin: 68px 0px 0px 0px;
+                background-color: white;
+                width: 280px;
+                height: 305px;
+                display: none;
+            }
+
+
+                    .header_checkbox_text{
+                        display: none;      
+                    }
+            
+    
+                    .header_checkbox_lines{
+                        width: 35px;
+                        height: 30px;
+                        position: absolute;
+                        margin: 22px 53px 0px 130px;
+                        z-index: 999;
+                    }
+                    
+            
+                    .header_navigation_lines{
+                        width: 280px;
+                        height: 1px;
+                        background-color: black;
+                    }
+    
+    
+                    .header_navigation_options{
+                        width: 280px;
+                        height: 60px;
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
+                        text-decoration: none;
+                        text-decoration-line: none;
+                    }
+            
+
+                            .header_navigation_options_images{
+                                width: 24px;
+                                height: 24px;
+                                padding-left: 50px;
+                            }
+                            
+                    
+                            .header_navigation_options_texts{
+                                padding-left: 30px;
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                color: black;
+                            }
+    
+    
+                    .header_link_1{
+                        padding: 7px 100px 7px 100px;
+                    }
+            
+            
+                    .header_link_2{
+                        padding: 16px 00px 17px 100px;
+                        width: 135px;
+                    }
+
+
+            .body_home{
+                background-image: linear-gradient(220deg, var(--primarycolor), var(--secondarycolor));
+                width: 100%;
+                height: 1911px;
+            }
+
+
+                    .home_text_1{
+                        width: 159px;
+                        height: 23px;
+                        margin: 1.5% 0px 0px 50%;
+                        font-size: 18px;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                    }
+                
+                
+                    .home_text_2{
+                        letter-spacing: var(--letterspacing);
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        width: 212px;
+                        height: 20px;
+                        margin: 3% 0px 0px 36%;
+                    }
+
+
+                    .home_text_3{
+                        letter-spacing: var(--letterspacing);
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 100%;
+                        height: 20px;
+                        padding: 0% 0px 0px 15%;
+                    }
+                    
+
+                    .home_text_4{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 378px;
+                        height: 20px;
+                        padding: 0% 0px 0px 19%;
+                    }
+                    
+                    
+                    .home_text_5{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 300px;
+                        height: 20px;
+                        padding: 0% 0px 0px 19%;
+                    }
+                
+                
+                    .home_banner_1{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                    }
+    
+    
+                            .home_banner_1_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 132px;
+                                height: 20px;
+                                padding: 12px 0px 0px 40%;
+                            }
+
+
+                    .home_banner_2{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                    }
+
+        
+                            .home_banner_2_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 132px;
+                                height: 20px;
+                                padding: 12px 43%;
+                            }
+
+
+                    .home_banner_3{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                    }
+            
+            
+                            .home_banner_3_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 18px;
+                                width: 147px;
+                                height: 20px;
+                                padding: 12px 40%;
+                            }
+
+
+                    .home_card_1{
+                        background-color: var(--card_primarycolor);
+                        width: 95%;
+                        height: 184px;
+                        margin: 23px 2.5% 0px;
+                        display: flex;
+                        box-shadow: 0px 5px 10px rgb(83, 83, 83);
+                    }
+    
+    
+                            .home_card_1_texts_text_1{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                width: 100%;
+                                height: 50px;
+                                margin: 7% 0px 0px 16px;
+                                font-weight: bold;
+                            }
+                            
+
+                            .home_card_1_texts_text_2{
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                font-weight: var(--primaryfontweight);
+                                width: 100%;
+                                height: 57px;
+                                margin: 2.5% 0px 0px 16px;
+                            }
+                            
+
+                            .home_card_1_texts_socials{
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 60%;
+                                height: 35px;
+                                margin: 0% 0px 5% 20%;
+                            }
+                            
+                            
+                            .home_card_1_ad{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            
+
+                            .home_card_1_ad_image{
+                                width: 152px;
+                                height: 100px;
+                                margin: 10% 0px 0px 7.5%;
+                            }
+                            
+
+                            .home_card_1_ad_button{
+                                width: 200px;
+                                height: 40%;
+                                margin: 15% 0px 0px 7.5%;
+                                background-color: #7BD651;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                                border-radius: 20px;
+                            }
+    
+    
+                    .home_card_2{
+                        background-color: var(--card_primarycolor);
+                        width: 95%;
+                        height: 184px;
+                        margin: 23px 2.5% 0px;
+                        display: flex;
+                        box-shadow: 0px 5px 10px rgb(83, 83, 83);
+                    }
+    
+    
+                            .home_card_2_texts_text_1{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                width: 100%;
+                                height: 50px;
+                                margin: 7% 0px 0px 16px;
+                                font-weight: bold;
+                            }
+                            
+                            
+                            .home_card_2_texts_text_2{
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                font-weight: var(--primaryfontweight);
+                                width: 100%;
+                                height: 57px;
+                                margin: 2.5% 0px 0px 16px;
+                            }
+                            
+                            
+                            .home_card_2_texts_socials{
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 60%;
+                                height: 35px;
+                                margin: 0% 0px 5% 20%;
+                            }
+    
+    
+                            .home_card_2_ad{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            
+
+                            .home_card_2_ad_image{
+                                width: 152px;
+                                height: 100px;
+                                margin: 10% 0px 0px 7.5%;
+                            }
+                            
+
+                            .home_card_2_ad_button{
+                                width: 200px;
+                                height: 40%;
+                                margin: 15% 0px 0px 7.5%;
+                                background-color: #7BD651;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                                border-radius: 20px;
+                            }
+
+
+                    .home_card_3{
+                        background-color: var(--card_primarycolor);
+                        width: 95%;
+                        height: 184px;
+                        margin: 23px 2.5% 0px;
+                        display: flex;
+                        box-shadow: 0px 5px 10px rgb(83, 83, 83);
+                    }
+                    
+    
+                            .home_card_3_texts_text_1{
+                                font-family: var(--primaryfont);
+                                font-size: var(--card_fontsize);
+                                width: 100%;
+                                height: 50px;
+                                margin: 7% 0px 0px 16px;
+                                font-weight: bold;
+                            }
+                            
+                            
+                            .home_card_3_texts_text_2{
+                                font-family: var(--primaryfont);
+                                font-size: 16px;
+                                font-weight: var(--primaryfontweight);
+                                width: 100%;
+                                height: 57px;
+                                margin: 2.5% 0px 0px 16px;
+                            }
+                            
+                            
+                            .home_card_3_texts_socials{
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 60%;
+                                height: 35px;
+                                margin: 0% 0px 5% 20%;
+                            }
+                            
+                            
+                            .home_card_3_ad{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            
+
+                            .home_card_3_ad_image{
+                                width: 152px;
+                                height: 100px;
+                                margin: 10% 0px 0px 7.5%;
+                            }
+                           
+                            
+                            .home_card_3_ad_button{
+                                width: 200px;
+                                height: 40%;
+                                margin: 15% 0px 0px 7.5%;
+                                background-color: #7BD651;
+                                border-bottom-width: 8px;
+                                border-bottom-color: #84c066;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                                border-radius: 20px;
+                            }
+
+
+    .footer{
+        width: 100%;
+        height: 140px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+
+                    .footer_text_1{
+                        width: 340px;
+                        height: 20px;
+                        padding: 34px 0px 0px 30%;
+                        font-size: 16px;
+                        font-family: var(--primaryfont);
+                    }
+                    
+
+                    .footer_text_2{
+                    width: 380px;
+                    height: 22px;
+                    margin: 14px 0px 0px 28%;
+                    font-size: 16px;
+                    font-family: var(--primaryfont);
+                    }
+
+
+                    .contact_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 100%;
+                        height: 20px;
+                        padding: 15px 0px 0px 10%;
+                    }
+                
+
+                    .contact_text_2{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        padding: 3.5px 0px 0px 7.5%;
+                    }
+                
+            
+            
+                    .contact_banner_1{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        margin-top: 31px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                        align-items: center;
+                        justify-content: center;
+                        justify-items: center;
+                    }
+        
+        
+                            .contact_banner_1_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 149px;
+                                height: 20px;
+                                padding: 13px 0px 0px 42.5%;
+                                justify-content: center;
+                                justify-items: center;
+                                align-items: center;
+                            }
+
+
+                    .contact_banner_2{
+                        background:var(--bannercolor);
+                            width: 100%;
+                            height: 40px;
+                            margin-top: 14px;
+                            box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                            align-items: center;
+                            justify-content: center;
+                            justify-items: center;
+                    }
+            
+            
+                            .contact_banner_2_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 149px;
+                                height: 20px;
+                                padding: 13px 0px 0px 42.5%;
+                                justify-content: center;
+                                justify-items: center;
+                                align-items: center;
+                            }
+
+
+                    .contact_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 100%;
+                        height: 1012px;
+                    }
+
+            
+                            .contact_card_1_text_1{
+                                font-family: var(--primaryfont);
+                                width: 368px;
+                                height: 25px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin: 30px 0px 0px 32px;
+                            }
+                            
+
+                            .contact_card__1_text_2{
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                width: 90%;
+                                height: 60px;
+                                font-size: 16px;
+                                margin: 12px 0px 0px 31px;
+                            }
+                            
+
+                            .contact_card_1_image_1{
+                                width: 50%;
+                                height: 250px;
+                                margin: 16px 0px 0px 25%;
+                            }
+
+
+                    .contact_formulary_1{
+                        width: 90%;
+                        height: 42px;
+                        margin-top: 7px;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        background-size: 24px;
+                        background-position: 10px;
+                        background-repeat: no-repeat;
+                        padding-left: 10px;
+                        font-size: 15px;
+                        border-color: #89898969;
+                    }
+                    
+                    .contact_formulary_1:placeholder-shown{
+                        background-image: url(assets/contact/image_nickname.png);
+                    }
+                    
+                    .contact_formulary_2{
+                        width: 90%;
+                        height: 42px;
+                        margin-top: 7px;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        background-size: 24px;
+                        background-position: 10px;
+                        background-repeat: no-repeat;
+                        padding-left: 5px;
+                        font-size: 15px;
+                        border-color: #89898969;
+                    }
+                    
+                    
+                            .contact_formulary_2:placeholder-shown{
+                                background-image: url(assets/contact/image_mail.png);
+                            }
+                        
+                    .contact_formulary_3{
+                        width: 90%;
+                        height: 210px;
+                        margin-top: 7px;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        padding-left: 10px;
+                        font-size: 15px;
+                        border-color: #89898969;
+                    }
+
+
+                    .games_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 259px;
+                        height: 23px;
+                        padding: 0px 0px 0px 22.5%;
+                    }
+                
+                
+                    .games_text_4{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        padding: 0px 0px 0px 22.5%;
+                    }
+        
+        
+                    .games_banner_1{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        margin-top: 23px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                        align-items: center;
+                        justify-content: center;
+                        justify-items: center;
+                    }
+                
+                
+                            .games_banner_1_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 149px;
+                                height: 20px;
+                                padding: 13px 0px 0px 42.5%;
+                                justify-content: center;
+                                justify-items: center;
+                                align-items: center;
+                            }
+    
+
+                    .games_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 100%;
+                        height: 1680px;
+                        font-family: var(--primaryfont);
+                    }
+                
+                            .games_card_1_image_1{
+                                width: 50%;
+                                height: 250px;
+                                margin: 19px 0px 0px 25%;
+                            }
+                            
+                            
+                            .games_card_1_text_2{
+                                width: 95%;
+                                height: 60px;
+                                margin: 9px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                            }
+                            
+                            
+                            .games_card_1_game_1{
+                                width: 90%;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 20px 0px 0px 32px;
+                            }
+                                           
+                            
+                            .games_card_1_game_1_texts{
+                                width: 100%;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            
+                            .games_card_1_text_3{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 20px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                        
+                            
+                            .games_card_1_text_6{
+                                width: 100%;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .games_card_1_game_2{
+                                width: 90%;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 20px 0px 0px 32px;
+                            }           
+                            
+                            
+                            .games_card_1_game_2_texts{
+                                width: 100%;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            
+                            .games_card_1_text_7{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 20px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .games_card_1_text_10{
+                                width: 100%;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                
+                
+                            .games_card_1_video{
+                                width: 90%;
+                                height: 390px;
+                                margin: 3px 0px 0px 5%;
+                            }
+
+
+                    .dev_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 305px;
+                        height: 23px;
+                        padding: 0px 0px 0px 12.5%;
+                    }
+            
+            
+                    .dev_text_2{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        padding: 0px 0px 0px 7.5%;
+                    }
+    
+    
+                    .dev_banner_1{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        margin-top: 23px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                        align-items: center;
+                        justify-content: center;
+                        justify-items: center;
+                    }
+                    
+                    
+                            .dev_banner_1_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 149px;
+                                height: 20px;
+                                padding: 13px 0px 0px 42.5%;
+                                justify-content: center;
+                                justify-items: center;
+                                align-items: center;
+                            }
+
+
+                    .dev_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 100%;
+                        height: 1310px;
+                        font-family: var(--primaryfont);
+                    }
+                    
+                    
+                            .dev_card_1_image_1{
+                                width: 50%;
+                                height: 250px;
+                                margin: 19px 0px 0px 25%;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_text_1{
+                                width: 80%;
+                                height: 27px;
+                                margin: 18px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: bold;
+                                font-size: 18px;
+                            
+                            }
+                            
+                            .dev_card_1_text_2{
+                                width: 80%;
+                                height: 50px;
+                                margin: 9px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                            }
+                            
+                            .dev_card_1_text_3{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_4{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_5{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_6{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_7{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_8{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_9{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_10{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_11{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            .dev_card_1_text_12{
+                                width: 90%;
+                                height: 27px;
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .dev_card_1_lang{
+                                width: 90%;
+                                height: 150px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 5px 0px 0px 19px;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_lang_reverse{
+                                width: 90%;
+                                height: 150px;
+                                display: flex;
+                                flex-direction: row-reverse;
+                                margin: 5px 0px 0px 5%;
+                            
+                            }
+                            
+                            
+                            .dev_card_1_lang_texts{
+                                width: 90%;
+                                height: 184px;
+                                margin-left: 13px;
+                                margin-top: 25px;
+                                display: flex;
+                                flex-direction: column;
+                                font-family: var(--primaryfont);
+                            }
+
+
+
+                    .animes_text_1{
+                        letter-spacing: 1.5px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 16px;
+                        width: 302px;
+                        height: 23px;
+                        padding: 0px 0px 0px 25%;
+                    }
+                    
+                    
+                    .animes_text_4{
+                        letter-spacing: 1px;
+                        font-family: var(--primaryfont);
+                        color: var(--font_primarycolor);
+                        font-weight: bold;
+                        font-size: 18px;
+                        width: 131px;
+                        height: 23px;
+                        padding: 0px 0px 0px 22.5%;
+                    }
+
+
+                    .animes_banner_1{
+                        background:var(--bannercolor);
+                        width: 100%;
+                        height: 40px;
+                        margin-top: 23px;
+                        box-shadow: 0px 3px 7px rgb(80, 80, 80);
+                        align-items: center;
+                        justify-content: center;
+                        justify-items: center;
+                    }
+                        
+                        
+                            .animes_banner_1_text{
+                                letter-spacing: var(--letterspacing);
+                                font-family: var(--primaryfont);
+                                color: var(--font_primarycolor);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                                width: 149px;
+                                height: 20px;
+                                padding: 13px 0px 0px 40%;
+                                justify-content: center;
+                                justify-items: center;
+                                align-items: center;
+                            }
+
+
+                    .animes_card_1{
+                        background-color: white;
+                        margin: 0px;
+                        width: 100%;
+                        height: 1680px;
+                        font-family: var(--primaryfont);
+                    }
+                        
+                            .animes_card_1_image_1{
+                                width: 50%;
+                                height: 250px;
+                                margin: 19px 0px 0px 25%;
+                            }
+                            
+                            
+                            .animes_card_1_text_2{
+                                width: 95%;
+                                height: 60px;
+                                margin: 9px 0px 0px 32px;
+                                font-family: var(--primaryfont);
+                                font-weight: var(--primaryfontweight);
+                                font-size: 16px;
+                            }
+                            
+                            
+                            .animes_card_1_game_1{
+                                width: 90%;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 20px 0px 0px 32px;
+                            }
+                            
+                            
+                            .animes_card_1_game_1_texts{
+                                width: 90%;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            
+                            .animes_card_1_text_3{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 8px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .animes_card_1_text_6{
+                                width: 100%;
+                                height: 84px;
+                                margin-top: 20px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .animes_card_1_game_2{
+                                width: 90%;
+                                height: 184px;
+                                display: flex;
+                                flex-direction: row;
+                                margin: 20px 0px 0px 32px;
+                            }
+                            
+                            
+                            .animes_card_1_game_2_texts{
+                                width: 90%;
+                                height: 184px;
+                                margin-left: 26px;
+                                display: flex;
+                                flex-direction: column;
+                                font-family: var(--primaryfont);
+                            }
+                            
+    
+                            
+                            .animes_card_1_text_7{
+                                width: 224px;
+                                height: 27px;
+                                margin-top: 20px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+    
+                            
+                            .animes_card_1_text_10{
+                                width: 100%;
+                                height: 84px;
+                                margin-top: 5px;
+                                font-size: 16px;
+                                font-family: var(--primaryfont);
+                            }
+                            
+                            
+                            .animes_card_1_video{
+                                width: 90%;
+                                height: 390px;
+                                margin: 3px 0px 0px 5%;
+                            }
+
+
+                            .swiper-wrapper{
+                                margin-left: 1%;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
